@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.contenedor-body{
+    
+}
+
+.img-principal {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Establece la altura al 100% del viewport */
+    overflow: hidden;
+}
+
+.img-principal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsionarla */
+}
+
+.body-principal{
+    margin: 32px;
+}
+
