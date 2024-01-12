@@ -7,12 +7,26 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: black;
-    color: white;
+    background-color: #cfcbcb;
+    color: black;
+}
+
+.img-logo-navbar{
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 .contenedor-body{
     
+}
+.navbar{
+    background-color: #D81B60 !important;
+}
+
+.navbar a{
+    color: #cfcbcb !important;
 }
 
 .img-principal {
@@ -32,3 +46,19 @@ body{
     margin: 32px;
 }
 
+/* BODY-PRINCIPAL */
+.about{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: #cfcbcb;
+    color: black;
+    border: 1px solid #EC407A;
+}
+.card-body{
+    text-align: center;
+}
