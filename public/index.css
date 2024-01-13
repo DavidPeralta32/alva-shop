@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #cfcbcb;
+    background-color: #e9e8e8;
     color: black;
 }
 
@@ -22,7 +22,7 @@ body{
     
 }
 .navbar{
-    background-color: #D81B60 !important;
+    background-color: #E0218A !important;
 }
 
 .navbar a{
@@ -55,9 +55,9 @@ body{
 }
 
 .card{
-    background-color: #cfcbcb;
+    background-color: #e9e8e8;
     color: black;
-    border: 1px solid #EC407A;
+    border: 1px solid #E0218A;
 }
 .card-body{
     text-align: center;
