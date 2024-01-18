@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="public/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI/tZ1ZLkeZt2n8YspHvjOD+alJZ1cFF02+Aq3BE=" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -15,7 +18,8 @@
     <header class="header-navBar">
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div class="container-fluid">
-                <img src="src/img/logo.jpg" alt="" class="img-logo-navbar" href="#">
+                <img src="src/img/logo.jpg" alt="" class="img-logo-navbar" id="btnLogoNavbar"
+                    onclick="abrirImagenLogo()">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -146,13 +150,66 @@
 
 
 
-    <div class="contenedor footer">
+    <div class="contenedor-footer">
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section about">
+                        <div class="contenedor-img-footer">
+                            <img src="src/img/logo.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-section contact">
+                        <div class="contact-titulo">
+                            <img width="40" height="40" src="https://img.icons8.com/ios-filled/100/contact-card.png" alt="contact-card"/>
+                            <h2 style="margin-left: 8px;">Contacto</h2>
+                        </div>
+                        
+                        <div class="correo-contact">
+                            <img width="35" height="35" src="https://img.icons8.com/nolan/64/filled-message.png" alt="filled-message"/>
+                            <p style="margin-left: 8px;margin-top: 5px;"> info@example.com</p>
+                        </div>
 
+                        <div class="celular-contact">
+                            <img width="35" height="36" src="https://img.icons8.com/external-icongeek26-outline-gradient-icongeek26/64/external-phone-ecommerce-icongeek26-outline-gradient-icongeek26.png" alt="celular"/>
+                            <p>(52) 2881318138</p>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="footer-section social">
+                        <h2>Síguenos</h2>
+                        <p>Enlaces a tus redes sociales</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Modal Logo principal -->
+    <div class="modal fade" id="modalLogoNavbar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 
 
 
+    <script src="js/index.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -160,6 +217,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 </body>
 
