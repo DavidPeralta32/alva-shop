@@ -169,14 +169,17 @@ footer {
     width: 150px;
 }
 
-.contact-titulo{
+.contact-titulo,
+.siguenos-titulo{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .correo-contact,
-.celular-contact{
+.celular-contact,
+.instagram-social,
+.facebook-social{
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
