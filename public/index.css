@@ -104,6 +104,8 @@ body{
 .contenedor-footer{
     width: 100%;
 }
+
+
 footer {
     background-color: #8d4b76;
     color: #fff;
@@ -111,7 +113,7 @@ footer {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -140,7 +142,7 @@ footer {
 .footer-section.about,
 .footer-section.contact,
 .footer-section.social {
-    max-width: 300px;
+    width: 100%;
 }
 
 .footer-section.about p,
@@ -160,9 +162,6 @@ footer {
     font-size: 18px;
 }
 
-.footer-section.social a:hover {
-    color: #58a6ff;
-}
 
 .contenedor-img-footer img{
     border-radius: 50%;
@@ -184,5 +183,43 @@ footer {
     flex-wrap: wrap;
     justify-content: start;
 }
+
+
+.correo-contact p:hover {
+    color: #ec8484;
+}
+
+.celular-contact p:hover {
+    color: #25d366;
+}
+
+.instagram-social a:hover {
+    color: #f58dd4;
+}
+
+.facebook-social a:hover {
+    color: #3f77f0;
+}
+
+
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+   .footer-content{
+    width: 100%;
+    display: block;
+    text-align: center;
+   }
+
+   .card-img{
+    height: 200px;
+   }
+   .img-card-presentacion{
+    height: 180px;
+   }
+}
+
+
+
 
 
