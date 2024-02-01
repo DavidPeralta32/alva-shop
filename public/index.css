@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #dddada;
+    background-color: #f3f0f0;
     color: black;
     font-family: 'Arial', sans-serif;
 }
@@ -57,13 +57,17 @@ body{
 }
 
 .card{
-    background-color: #e9e8e8;
+    background-color: #f3f0f0;
     color: black;
     border: 1px solid #E0218A;
     margin-top: 12px;
 }
 .card-body{
     text-align: center;
+}
+
+.card-img-top{
+    height: 230px;
 }
 
 
