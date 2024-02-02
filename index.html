@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="public/index.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
         integrity="sha256-oP6HI/tZ1ZLkeZt2n8YspHvjOD+alJZ1cFF02+Aq3BE=" crossorigin="anonymous"></script>
-
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
 </head>
 
 <body>
@@ -18,7 +21,7 @@
     <header class="header-navBar">
         <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
             <div class="container-fluid">
-                <img src="src/img/logo.jpg" alt="" class="img-logo-navbar" id="btnLogoNavbar"
+                <img src="src/img/logo.jpg" alt="" class="img-logo-navbar animate__animated animate__bounce " id="btnLogoNavbar"
                     onclick="abrirImagenLogo()">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -28,13 +31,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active animate__animated animate__backInDown" aria-current="page" href="#Inicio">
+                                Inicio
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            <a class="nav-link animate__animated animate__backInDown " href="#Contacto">
+                                Contactanos
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -43,7 +47,7 @@
     </header>
     <!--FIN NavBar-->
 
-    <div class="contenedor-body">
+    <div class="contenedor-body" id="Inicio">
         <div class="img-principal">
             <img src="src/img/pruebaIMGheader.jpg" alt="img-principal">
         </div>
@@ -52,21 +56,21 @@
             <h1>Alvas - shop</h1>
 
             <div class="about">
-                <div class="card" style="width: 18rem;">
+                <div class="card animate__animated animate__bounce" id="animatedCard" style="width: 18rem;">
                     <img src="src/img/corazon-img.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">SOBRE NOSOTROS</p>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
+                <div class="card animate__animated animate__bounce" style="width: 18rem;">
                     <img src="src/img/shopping-img.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">PRODUCTOS</p>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
+                <div class="card animate__animated animate__bounce" style="width: 18rem;">
                     <img src="src/img/mariposas-img.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">DISEÑOS</p>
@@ -143,7 +147,7 @@
 
 
 
-    <div class="contenedor-footer">
+    <div class="contenedor-footer" id="Contacto">
         <footer>
             <div class="container">
                 <div class="footer-content">
