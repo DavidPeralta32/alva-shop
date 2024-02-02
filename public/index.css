@@ -56,6 +56,10 @@ body{
     margin-top: 36px;
 }
 
+.card:hover{
+    box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.2)
+}
+
 .card{
     background-color: #f3f0f0;
     color: black;
